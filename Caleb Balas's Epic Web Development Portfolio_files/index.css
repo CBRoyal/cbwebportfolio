@@ -1,0 +1,129 @@
+:root{
+    --description-text-shadow: #000000;
+    --pokemon-basic-website-card-bg-color: #ff0000;
+    --pokemon-basic-website-link-color: #ffffff;
+    --pokemon-basic-website-link-hover-color: #0000ff;
+    --pokemon-completed-website-card-bg-color: #9400d3;
+    --survivor-website-card-text-color: #ff4500;
+    --survivor-website-card-text-shadow-color: #006400;
+    --survivor-website-link-color: #ffff00;
+    --survivor-website-link-hover-color: #ff8c00;
+    --friendly-personal-website-card-text-color: #ff69b4;
+    --frinedly-personal-website-card-text-shadow-color: #00ffff;
+    --jonas-store-website-card-first-gradient-bg-color: #ffa500;
+    --jonas-store-website-card-second-gradient-bg-color: #fafad2;
+}
+
+#my_web_development_portfolio_webpage_body{
+    background-image: url("https://www.bing.com/th/id/OIP.p-hbAkThWDTvPo1pbDqCeQHaEo?w=248&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 50px solid transparent;
+    padding: 35px;
+    border-image-source: url("https://th.bing.com/th/id/R.1a5d5dcfaf8cae338a4be10eddfbd511?rik=CZGNi5ztxo%2bL9g&pid=ImgRaw&r=0");
+    border-image-repeat: no-repeat;
+    border-image-slice: 50;
+    border-image-width: 50px;
+    border-image-outset: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#portfolio_title, #portfolio_description, #storage_title{
+    color: var(--frinedly-personal-website-card-text-shadow-color);
+    text-shadow: 2px 2px var(--description-text-shadow);
+}
+#pokemon_basic_website_card{
+    background-color: var(--pokemon-basic-website-card-bg-color);
+    text-shadow: 2px 1px var(--description-text-shadow);
+    font-family: "Momo Signature", cursive;
+}
+#pokemon_basic_website_link{
+    color: var(--pokemon-basic-website-link-color);
+}
+#pokemon_basic_website_link:hover{
+    color: var(--pokemon-basic-website-link-hover-color);
+}
+#pokemon_completed_website_card{
+    background-color: var(--pokemon-completed-website-card-bg-color);
+    font-family: "Momo Signature", cursive;
+}
+#pokemon_completed_website_link{
+    color: var(--pokemon-basic-website-link-color);
+}
+#pokemon_completed_website_link:hover{
+    color: var(--description-text-shadow);
+}
+#survivor_camping_tips_website_card{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.bkG7MoTFIkb1bV8L7KNgqgHaFj?rs=1&pid=ImgDetMain&o=7&rm=3");
+    color: var(--survivor-website-card-text-color);
+    text-shadow: 2px 1px var(--survivor-website-card-text-shadow-color);
+    font-family: "Knewave";
+}
+#survivor_camping_tips_website_link{
+    color: var(--survivor-website-link-color);
+}
+#survivor_camping_tips_website_link:hover{
+    color: var(--survivor-website-link-hover-color);
+}
+#friendly_personal_website_card{
+    background-image: url("https://th.bing.com/th/id/OIP.M3KwZNHTeM0u4G5cvL5q1QHaDt?w=316&h=175&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3");
+    color: var(--friendly-personal-website-card-text-color);
+    text-shadow: 1px 1px var(--frinedly-personal-website-card-text-shadow-color);
+}
+#friendly_personal_website_link{
+    color: var(--friendly-personal-website-card-text-color);
+}
+#friendly_personal_website_link:hover{
+    color: var(--survivor-website-link-color);
+}
+#jonas_store_website_card{
+    background: linear-gradient(to right, var(--jonas-store-website-card-first-gradient-bg-color),
+    var(--jonas-store-website-card-second-gradient-bg-color), var(--survivor-website-link-color));
+    color: var(--pokemon-basic-website-link-hover-color);
+    text-shadow: 1px 1px var(--pokemon-completed-website-card-bg-color);
+    font-family: "Anton";
+}
+#jonas_store_website_link:hover{
+    color: var(--pokemon-completed-website-card-bg-color);
+}
+#royal_lions_den_menu_webpage_card{
+    background-image: url("https://www.bing.com/th/id/OIP.Sc5fWZeQK6oPbcgMQaHmawHaE8?w=245&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+    color: var(--survivor-website-link-color);
+    text-shadow: -1px 1px var(--pokemon-basic-website-link-hover-color);
+    font-family: "Dancing Script", cursive;
+}
+#royal_lions_den_menu_webpage_link{
+    color: var(--survivor-website-link-color);
+}
+#royal_lions_den_menu_webpage_link:hover{
+    color: var(--pokemon-basic-website-link-color);
+}
+#the_amazing_race_training_website_card{
+    color: var(--survivor-website-link-color);
+    text-shadow: 1px 1px var(--pokemon-basic-website-link-color);
+}
+#the_amazing_race_training_website_link{
+    color: var(--survivor-website-link-color);
+}
+#the_amazing_race_training_website_link:hover{
+    color: var(--pokemon-basic-website-link-color);
+}
+#fictional_weis_markets_webpage_card{
+    font-family:"Changa One";
+}
+#fictional_weis_markets_webpage_link{
+    color: var(--pokemon-basic-website-card-bg-color);
+}
+#fictional_weis_markets_webpage_link:hover{
+    color: var(--pokemon-basic-website-link-hover-color);
+}
+#routes_of_america_website_link{
+    color: var(--pokemon-basic-website-link-color);
+}
+#routes_of_america_website_link:hover{
+    color: var(--description-text-shadow);
+}
+.copyright_links, #back_to_top_link{
+    color: var(--frinedly-personal-website-card-text-shadow-color);
+    text-shadow: 2px 2px var(--description-text-shadow);
+}
