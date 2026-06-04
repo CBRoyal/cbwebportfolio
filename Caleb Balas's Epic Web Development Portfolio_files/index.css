@@ -135,3 +135,8 @@
         padding-right: 5px;
     }
 }
+@media (max-width: 500px){
+    .card{
+        padding-right: 20px;
+    }
+}
