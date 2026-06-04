@@ -130,3 +130,8 @@
     color: var(--frinedly-personal-website-card-text-shadow-color);
     text-shadow: 2px 2px var(--description-text-shadow);
 }
+@media (max-width: 800px){
+    .card{
+        padding-right: 5px;
+    }
+}
