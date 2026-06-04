@@ -124,7 +124,7 @@
     color: var(--pokemon-basic-website-link-color);
 }
 #routes_of_america_website_link:hover{
-    color: var(--description-text-shadow);
+    color: var(--jonas-store-website-card-first-gradient-bg-color);
 }
 .copyright_links, #back_to_top_link{
     color: var(--frinedly-personal-website-card-text-shadow-color);
