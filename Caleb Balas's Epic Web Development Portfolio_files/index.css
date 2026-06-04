@@ -32,6 +32,9 @@
     color: var(--frinedly-personal-website-card-text-shadow-color);
     text-shadow: 2px 2px var(--description-text-shadow);
 }
+#my_additional_bio_information{
+    list-style-type: none;
+}
 #pokemon_basic_website_card{
     background-color: var(--pokemon-basic-website-card-bg-color);
     text-shadow: 2px 1px var(--description-text-shadow);
