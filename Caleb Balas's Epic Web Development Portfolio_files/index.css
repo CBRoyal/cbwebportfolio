@@ -131,7 +131,7 @@
     text-shadow: 2px 2px var(--description-text-shadow);
 }
 .copyright_links:hover, #back_to_top_link:hover{
-    color: var(--pokemon-basic-website-link-color);
+    color: var(--description-text-shadow);
 }
 @media (max-width: 800px){
     .card{
