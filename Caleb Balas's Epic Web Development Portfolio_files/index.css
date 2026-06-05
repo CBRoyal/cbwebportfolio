@@ -134,5 +134,6 @@
     color: var(--pokemon-basic-website-link-hover-color);
 }
 footer{
+    color: var(--frinedly-personal-website-card-text-shadow-color);
     text-shadow: 1px 1px var(--description-text-shadow);
 }
