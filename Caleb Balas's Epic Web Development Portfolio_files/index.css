@@ -133,3 +133,6 @@
 .copyright_links:hover, #back_to_top_link:hover{
     color: var(--pokemon-basic-website-link-hover-color);
 }
+footer{
+    text-shadow: 2px 2px var(--description-text-shadow);
+}
