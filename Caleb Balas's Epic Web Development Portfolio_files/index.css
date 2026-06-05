@@ -133,3 +133,13 @@
 .copyright_links:hover, #back_to_top_link:hover{
     color: var(--pokemon-basic-website-link-hover-color);
 }
+@media (max-width: 800px){
+    .card{
+        padding-right: 10px;
+    }
+}
+@media (max-width: 500px){
+    .card{
+        padding-right: 70px;
+    }
+}
